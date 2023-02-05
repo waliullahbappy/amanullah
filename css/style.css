@@ -453,17 +453,23 @@ section{
 }
 
 .newsletter{
-    background:url(../image/letter-bg.jpg) no-repeat;
+    background-color: #444;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .newsletter form{
-    max-width: 45rem;
-    margin-left: auto;
+    max-width: 125rem;
+    margin: auto;
     text-align: center;
     padding:5rem 0;
+}
+.monthly_dua{
+    font-size: 4.2rem;
+    color:var(--green);
+    padding-bottom: .7rem;
+    font-weight: bold;
 }
 
 .newsletter form h3{
@@ -764,9 +770,9 @@ section{
         padding-bottom: 6rem;
     }
 
-    .header .header-2{
+    /* .header .header-2{
         display:none;
-    }
+    } */
 
     .bottom-navbar{
         display: block;
